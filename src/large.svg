@@ -52,7 +52,6 @@
 					justify-content: center;
 					margin: 0;
 					width: 100%;
-					height: 350px;
 					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
 					background-size: 600% 400%;
 					animation: gradientBackground 10s ease infinite;
@@ -61,7 +60,14 @@
 					text-align: center;
 				}
 
-                .rotate-text {
+				.flex-row {
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+				}
+
+				.rotate-text {
+					width: 80%;
 					line-height: 1.3;
 					letter-spacing: 5px;
 					text-shadow:
@@ -71,15 +77,8 @@
 						0 4px 0 var(--whi),
 						0 12px 5px rgba(0, 0, 0, 0.1);
 					animation: rotate ease-in-out 1s infinite alternate;
-
-                }
-                
-                .flex-row {
-                    display: flex;
-					flex-direction: row;
-					align-items: center;
-                }
-
+				}
+				
 				.rotate-text h1 {
 					font-size: 50px;
 					text-transform: uppercase;
@@ -94,7 +93,7 @@
 				}
 				
 				.rotate-text .bulb {
-				    font-size: 50px;
+					font-size: 50px;
 					text-shadow:
 						0 1px 0 var(--lit),
 						0 2px 1px var(--lit),
@@ -116,20 +115,20 @@
 				}
 				
 				:root {
-                  --whi: #dee2e6;
-                  --drk: #2a0800;
-                  --lit: #f9dc5c;
-                }
+					--whi: #dee2e6;
+					--drk: #2a0800;
+					--lit: #f9dc5c;
+				}
 			</style>
 
 			<div class="container">
-			    <div class="rotate-text">
-			        <div class="flex-row">
-			            <span class="bulb">💡</span>
-        				<h1>Dumb ideas for the future</h1>
-        				<span class="bulb">💡</span>
-    				</div>
-    				<h2>or maybe not <span class="emoji">🤔</span></h2>
+					<div class="rotate-text">
+						<div class="flex-row">
+							<span class="bulb">💡</span>
+							<h1>Dumb ideas for the future</h1>
+							<span class="bulb">💡</span>
+						</div>
+						<h2>or maybe not <span class="emoji">🤔</span></h2>
 				</div>
 			</div>
 		</div>
