@@ -1,5 +1,5 @@
 <div align="center">
-	![Large banner](large.svg)	
+	<img src="large.svg" width="1000" alt="Large banner">
 </div>
 
 
