@@ -7,3 +7,4 @@
 - App to save MSSV and link fb and pics (for myself lol). (Basically gallery)
 - Analyze chatting behavior and make an AI to automate that (for lover)
 - AI classification: facial chart. Like where does this face lie on the alignment chart.
+- Capitalism simulator: What would happen if we raise minimum wage? And humana are coded based on basic conditions. e.g. work if saving < 150% of rent
